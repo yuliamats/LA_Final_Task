@@ -1,0 +1,4 @@
+id=1 author='Эккель' title='Филосифия JAVA' publishingHouse='Питер' yearPublished=2019 pageCount=1168 status='paper'
+id=2 author='Хорстманн' title='JAVA базовый курс' publishingHouse='Вильямс' yearPublished=2018 pageCount=576 status='paper' 
+id=3 author='Хорстманн' title='JAVA Библиотека профессионала' publishingHouse='Вильямс' yearPublished=2019 pageCount=864 status='paper' 
+id=4 author='Бейтс' title='Изучаем JAVA' publishingHouse='Питер' yearPublished=2019 pageCount=720 status='paper' 

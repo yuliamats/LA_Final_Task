@@ -1,0 +1,5 @@
+id=1 author='Эккель' title='Филосифия_JAVA' publishingHouse='Питер' yearPublished=2019 pageCount=1168 status='paper'
+id=2 author='Хорстманн' title='JAVA' publishingHouse='Вильямс' yearPublished=2020 pageCount=576 status='digit'
+id=3 author='Бейтс' title='JAVA' publishingHouse='Питер' yearPublished=2019 pageCount=720 status='paper'
+id=4 author='Бейтс' title='Изучаем_JAVA' publishingHouse='Питер' yearPublished=2019 pageCount=720 status='paper'
+id=5 author='Грин' title='С++' publishingHouse='Питер' yearPublished=2019 pageCount=720 status='digit'

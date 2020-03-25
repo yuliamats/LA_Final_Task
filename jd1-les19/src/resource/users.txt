@@ -1,0 +1,4 @@
+id=1 login=vasay password=1234 name=vasiliy surname=ivanov role=admin
+id=2 login=qqq password=www name=petr surname=petrov role=admin
+id=3 login=vld password=bbb name=vlad surname=ivanov role=admin
+id=4 login=ttt password=iii name=anna surname=zuk role=admin
