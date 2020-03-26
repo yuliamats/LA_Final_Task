@@ -22,11 +22,16 @@ public class ChangeUserStatusCommand implements Command {
 
 		UserService service = ServiceProvider.getInstance().getUserService();
 		try {
-			service.changeUserStatus(idUser, newStatus);
-			response = "user's status is changed";
+			boolean result;
+			result = service.changeUserStatus(idUser, newStatus);
+			if (result) {
+				response = "user's status is changed";
+			} else {
+				response = "try again";
+			}
 		} catch (ServiceException e) {
 			// log
-			response = "error! try adain";
+			response = "error!";
 		}
 		return response;
 	}

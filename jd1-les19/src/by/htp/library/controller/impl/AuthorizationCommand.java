@@ -22,11 +22,16 @@ public class AuthorizationCommand implements Command {
 
 		UserService service = ServiceProvider.getInstance().getUserService();
 		try {
-			service.authorization(login, password);
+			boolean result;	
+			result = service.authorization(login, password);
+			if(result) {
 			response = "welcome!";
+			} else {
+				response = "try again";
+			}
 		} catch (ServiceException e) {
 			// log
-			response = "error! try adain";
+			response = "error!";
 		}
 		return response;
 	}

@@ -33,7 +33,7 @@ public class RegistrationCommand implements Command {
 			response = "registration OK";
 		} catch (ServiceException e) {
 			// log
-			response = "error! Try again";
+			response = "error!";
 		}
 		return response;
 	}

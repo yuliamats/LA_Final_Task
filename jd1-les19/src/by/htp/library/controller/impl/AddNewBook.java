@@ -37,7 +37,7 @@ public class AddNewBook implements Command {
 			response = "book is added ";
 		} catch (ServiceException e) {
 			// log
-			response = "error! Try again";
+			response = "error!";
 		}
 		return response;
 	}

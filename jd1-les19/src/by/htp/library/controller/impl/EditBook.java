@@ -38,7 +38,7 @@ public class EditBook implements Command {
 			response = "book is edited";
 		} catch (ServiceException e) {
 			// log
-			response = "error! Try again";
+			response = "error!";
 		}
 		return response;
 	}
